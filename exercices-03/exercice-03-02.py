@@ -10,7 +10,7 @@
 
 
 # réponse 3.2
-candies_rest = 9 % 3
+candies_rest = 15 % 3
 chocolates_rest = 17 % 3
 print(candies_rest)
 print(chocolates_rest)

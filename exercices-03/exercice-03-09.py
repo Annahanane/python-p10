@@ -14,20 +14,26 @@ price_alpha = 2.00
 price_beta = 1.70
 
 # réponse 3.9
-weight_alpha = 120/1000
+g_alpha = 120
+g_beta = 100
+
+# le poid au kilo
+weight_alpha = g_alpha/1000
 print(weight_alpha)
-weight_beta = 100/1000
+weight_beta = g_beta/1000
 print(weight_beta) 
-price_per_kilo_alpha = 2*1000/120
+
+# le prix au kilo
+price_per_kilo_alpha = price_alpha / weight_alpha
 print(price_per_kilo_alpha)
-price_per_kilo_beta = 1.70*1000/100
+price_per_kilo_beta = price_beta / weight_beta
 print(price_per_kilo_beta)
 
-if price_beta < price_alpha :
-    print("price_beta < price_alpha")
+if price_alpha < 17 and price_beta <= 17 :
+    print(True)
 
 else  :
-    print("price_alfa < price_alpha")   
+    print(False)   
 
 
 

@@ -13,5 +13,6 @@ tax_rate = 20
 
 # réponse 3.7
 
-tax_free = 314.00/5
+# tax_free = 62.8
+tax_free = price * tax_rate/ 100
 print(tax_free) 
