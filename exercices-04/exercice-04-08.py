@@ -20,4 +20,4 @@ if mails == 0:
 elif mails == 1:
     print("il y un nouveau mail") 
 else:
-    print("il y a X nouveaux mails" )       
+    print(f"Vous avez {mails} nouveaux emails")
