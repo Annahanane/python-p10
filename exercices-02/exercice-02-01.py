@@ -9,16 +9,23 @@
 
 # réponse 2.1
 answer = 42
-print('answer')
+print(answer)
+
 golden_ratio = 1.61
 print(golden_ratio)
-fullname = "Salut Ait faska Hanane" 
-print(fullname)
-love_python = True
-love_python = bool(love_python)
-print(bool(love_python))
-license_agreement = 'None'
-print(license_agreement)
 
-  
+fullname = " Salut " + "Ait faska " + "Hanane"
+print(fullname)
+
+love_python = bool("aimer python")
+print(True)
+love_python = bool("ne pas aimer python")
+print(False)
+#love_python = True
+#love_python = bool(love_python)
+#print(bool(love_python))
+
+license_agreement = None
+print(license_agreement)
+print(type(license_agreement))
 

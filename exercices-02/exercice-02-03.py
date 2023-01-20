@@ -6,8 +6,7 @@
 # réponse 2.3
 
 number2 = 2.7182
-number2 = int(number2)
-print(type(number2))
-print(number2)
-number2_int = 2
+number2_int = int(number2)
+
 print(number2_int)
+# numner2_int = 2
