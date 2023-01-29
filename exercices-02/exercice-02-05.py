@@ -8,7 +8,9 @@
 # réponse 2.5
 number4 = 3.1415
 print(number4)
-number4_rounded = 3.0
+# number4_rounded = 3.0
+number4_rounded = float(round(number4))
 print(number4_rounded)
+# number4_int = 3
 number4_int = int(number4_rounded)
 print(number4_int)
