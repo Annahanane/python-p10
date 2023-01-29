@@ -10,8 +10,16 @@
 
 
 # réponse 3.2
-candies_rest = 15 % 3
-chocolates_rest = 17 % 3
+
+candies = 15
+chocolates = 17 
+friends = 3 
+
+# condies_rest = 0
+candies_rest = candies % friends
 print(candies_rest)
+
+# chocolats_rest = 2
+chocolates_rest = chocolates % friends
 print(chocolates_rest)
 
