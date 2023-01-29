@@ -13,16 +13,17 @@
 miles = 3
 
 # réponse 3.6
-# métres = 4828.032
-métres = miles * 1609.344
-print(métres)
+
+# metres = 4828.032
+metres = miles * 1609.344
+print(metres)
 
 # arrondi = 4828
-arrondi = round(métres)
+arrondi = round(metres)
 print(arrondi)
 
 # km = 4.828032
-km = métres/1000 
+km = metres/1000 
 print(km)
 
 # arrondi1 = 5
