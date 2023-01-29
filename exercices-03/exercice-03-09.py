@@ -29,7 +29,8 @@ print(price_per_kilo_alpha)
 price_per_kilo_beta = price_beta / weight_beta
 print(price_per_kilo_beta)
 
-if price_alpha < 17 and price_beta <= 17 :
+# Charly a raison (True)
+if price_per_kilo_alpha < price_per_kilo_beta :
     print(True)
 
 else  :
